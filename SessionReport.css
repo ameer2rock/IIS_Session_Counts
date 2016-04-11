@@ -1,0 +1,157 @@
+TR.header { 
+        background-color: rgb(255, 204, 0); 
+        height: 100px; 
+        vertical-align: top;
+}
+TABLE.header { 
+        text-align: left; 
+        width: 100%; 
+        height: 97px;
+}
+TD {
+        vertical-align: top;
+}
+TD.logobox {
+        width: 135px; 
+        vertical-align: middle;
+        text-align: center; 
+}
+TD.titlebox {
+        text-align: center; 
+        vertical-align: middle;
+}
+TD.titlebox H1 {
+        display: block;
+        font-size: 18pt;
+        font-weight: bold;
+        margin: 1px;
+        padding: 1px;
+}
+TD.titlebox H2 {
+        display: block;
+        font-size: 14pt;
+        font-weight: bold;
+        margin: 1px;
+        padding: 1px 1px 10px 1px;
+}
+TD.titlebox H3 {
+        display: inline;
+        font-size: 12pt;
+        font-weight: bold;
+        margin: 1px;
+        padding: 1px;
+}
+TD.leftmenu { color: black; 
+              text-decoration: none; 
+              font-size: 10pt; 
+              width: 135px; 
+              vertical-align: top; 
+              background-color: rgb(255, 204, 0); 
+      }
+TD.leftmenu H1 { font-size: 10pt; font-weight: bold; display: inline }
+TD.leftmenu H2 { font-size: 10pt; font-weight: bold; display: inline }
+TD.leftmenu A:link {color: black; text-decoration: none}
+TD.leftmenu A:visited {color: black; text-decoration: none}
+TD.leftmenu A:hover {
+        background-color: #ffff00; 
+        text-decoration: underline}
+TD.leftmenu A.current:link {
+        color: black; 
+        font-weight: bold
+}
+TD.leftmenu A.current:visited {
+        color: black; 
+        font-weight: bold
+}
+A.tabs { 
+        position: absolute; 
+        z-index: 0; 
+        top: 112px; 
+        width: 60px; 
+        height: 24px; 
+        text-align: center;
+        font-size: 10pt; 
+        font-family: serif; 
+}
+A.tabs:link {text-decoration: none; color: black}
+A.tabs:visited {text-decoration: none; color: black}
+.tabbackground { 
+        position: absolute; 
+        z-index: 0; 
+        top: 110px; 
+        width: 60px; 
+        height: 24px;
+}
+A.nextprev {
+        font-size: 8pt; 
+}
+TABLE.report { 
+        vertical-align: top;
+        font-size: 9pt; 
+        font-family: sans-serif; 
+        width: 100%; 
+        text-align: left;
+}
+TH.reportserver {
+        width: 100px;
+}
+DIV.reportusage {
+        color: white; 
+        background-color: green;
+        text-align: center;
+}        
+DIV.reportfail {
+        color: red; 
+        text-align: center;
+}
+TR.reporteven {
+        background-color: rgb(240, 240, 240);
+}
+TR.reportodd {
+        background-color: white;
+}
+TD.reporthead {
+        background-color: rgb(240, 240, 240);
+        font-family: sans-serif; 
+        font-weight: bold;
+        font-size: 9pt;
+        text-align: center;
+}
+.summary {
+        background-color: white;
+        font-family: sans-serif; 
+        font-weight: bold;
+        font-size: 12pt;
+        text-align: left;
+}
+.summarycount {
+        background-color: white;
+        font-family: sans-serif; 
+        font-weight: bold;
+        font-size: 12pt;
+        text-align: left;
+}
+.summarycomplete {
+        background-color: white;
+        font-family: sans-serif; 
+        font-weight: normal;
+        font-size: 9pt;
+        text-align: left;
+}
+TD.reporttext {
+        font-family: sans-serif; 
+        font-weight: bold;
+        font-size: 9pt;
+        text-align: left;
+}
+TD.reportdata {
+        font-family: monospace; 
+        font-size: 9pt;
+        text-align: right;
+}
+TD.sladata {
+        font-family: monospace; 
+        font-size: 9pt;
+        text-align: right;
+        background-color: rgb(51, 204, 0);
+}
